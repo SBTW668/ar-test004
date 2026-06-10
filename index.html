@@ -19,12 +19,13 @@
         ios-src="https://pub-82dbc9529ce24d7bb90a10c5c7ff0532.r2.dev/test004.usdz"
         alt="我的 3D AR 模型" 
         ar 
-        ar-modes="webxr scene-viewer quick-look" 
+        ar-modes="quick-look webxr" 
         camera-controls 
         touch-action="none"
         shadow-intensity="1"
-        autoplay
-        animation-crossfade-duration="0"> <button slot="ar-button" style="background-color: #000000; color: white; border-radius: 30px; border: none; position: absolute; bottom: 50px; left: 50%; transform: translateX(-50%); padding: 15px 30px; font-weight: bold; font-size: 16px; box-shadow: 0 4px 10px rgba(0,0,0,0.3); cursor: pointer;">
+        autoplay>
+        
+        <button slot="ar-button" style="background-color: #000000; color: white; border-radius: 30px; border: none; position: absolute; bottom: 50px; left: 50%; transform: translateX(-50%); padding: 15px 30px; font-weight: bold; font-size: 16px; box-shadow: 0 4px 10px rgba(0,0,0,0.3); cursor: pointer; z-index: 999;">
             >> 點擊進入AR模式
         </button>
         
