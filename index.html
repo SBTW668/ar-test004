@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>海馬 AR 終極版</title>
+    <title>鮮豔海馬 AR 網頁</title>
     
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
     
@@ -16,17 +16,19 @@
 
     <model-viewer 
         src="https://pub-82dbc9529ce24d7bb90a10c5c7ff0532.r2.dev/test004.glb" 
-        ios-src="https://pub-82dbc9529ce24d7bb90a10c5c7ff0532.r2.dev/test004.usdz#allowsContentScaling=0"
-        alt="海馬 AR" 
+        ios-src="https://pub-82dbc9529ce24d7bb90a10c5c7ff0532.r2.dev/test004.usdz"
+        alt="鮮豔海馬 AR" 
         ar 
         ar-modes="quick-look webxr" 
         camera-controls 
         touch-action="none"
         shadow-intensity="0"
-        shadow-softness="0"
         autoplay
         camera-orbit="45deg 75deg auto"
-        camera-target="0 0.6 0">
+        camera-target="0 0.6 0"
+        ar-scale="auto"
+        exposure="1.8"
+        tone-mapping="commerce">
         
         <button slot="ar-button" style="background-color: #000000; color: white; border-radius: 30px; border: none; position: absolute; bottom: 50px; left: 50%; transform: translateX(-50%); padding: 15px 30px; font-weight: bold; font-size: 16px; box-shadow: 0 4px 10px rgba(0,0,0,0.3); z-index: 999;">
             >> 點擊進入AR模式
